@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'org.gauge' version '1.8.2'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.thoughtworks.gauge:gauge-java:0.7.15'
+    testImplementation 'org.assertj:assertj-core:3.20.2'
+    implementation 'io.rest-assured:rest-assured:5.3.0'
+    implementation 'io.rest-assured:json-path:5.3.0'
+    implementation 'io.rest-assured:xml-path:5.3.0'
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+}
