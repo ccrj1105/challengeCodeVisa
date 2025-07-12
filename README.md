@@ -18,7 +18,7 @@ This project utilizes the [Gauge](https://gauge.org/) framework for automating t
 Before you begin, ensure you have the following installed:
 
 - [Java JDK 8 or higher](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Gauge](https://docs.gauge.org/getting_started/installing_gauge.html)
+- [Gauge](https://docs.gauge.org/getting_started/installing-gauge?os=macos&language=java&ide=vscode)
 - [Gradle](https://gradle.org/install/) (optional, if you don't have Gradle installed)
 
 ## Installation
