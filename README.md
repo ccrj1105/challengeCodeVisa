@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 * **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your_username/project_name.git
+   git clone https://github.com/ccrj1105/challengeCodeVisa.git
    cd project_name
 * **Install dependencies:**
    If you are using Gradle, you can install the dependencies by running:
