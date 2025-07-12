@@ -17,3 +17,5 @@ reports
 .idea
 logs
 .gauge
+libs
+gauge_bin
